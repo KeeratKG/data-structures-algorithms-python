@@ -41,3 +41,8 @@ heros.sort()
 print(heros)
 
 # Question 3
+max = int(input("Enter the upper limit: "))
+list = []
+for i in range(max//2):
+    list.append(2*i+1)
+print(list)
